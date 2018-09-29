@@ -1,0 +1,6 @@
+#ISSUE 1: Read the first Issue
+This is a list of examples to read properly. Each item will be 
+enumerated with hypens.
+- First one
+- Second one
+- Third one
