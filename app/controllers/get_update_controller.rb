@@ -1,5 +1,6 @@
 class GetUpdateController < ApplicationController
   def index
-    render json: {message: "you're in"}
+    puts "Yes man"
+    #render json: {message: "you're in"}, status :ok
   end
 end
