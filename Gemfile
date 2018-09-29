@@ -29,6 +29,8 @@ gem 'bootsnap', '>= 1.1.0', require: false
 # gem 'rack-cors'
 gem 'telegram-bot'
 
+gem 'telegram_bot'
+
 gem 'telegram-bot-types'
 
 group :development, :test do
