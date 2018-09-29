@@ -1,4 +1,4 @@
-require 'telegram_bot'
+require 'telegram-bot'
 
 token = '623885187:AAG9GlzaCCD1Ef7yvPtOmMZP5sys7xJf4-U'
 
