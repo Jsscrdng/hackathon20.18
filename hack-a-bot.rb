@@ -22,7 +22,8 @@ bot.get_updates(fail_silently: true) do |message|
       when /start/i
         reply.text = "Hack-a-bot is ready now. Try the /greet command."
       when /greet/i
-        reply.text = "Hello, #{message.from.first_name}.🤖"
+        #🤖
+        reply.text = "Hello, #{message.from.first_name}.How things doing?"
       when /setup/i
         url = "https://api.github.com/repos/jsscrdng/hackathon20.18/issues?access_token=#{ENV["GITHUB_ACCESS_TOKEN"]}"
         parsed_url = URI.parse(url)
@@ -31,7 +32,7 @@ bot.get_updates(fail_silently: true) do |message|
         request = Net::HTTP::Get.new(parsed_url.request_uri)
         response = http.request(request)
         lists_ids = create_list
-        # debugger
+
         JSON.parse(response.body).each do |issue|
           create_issues(issue["title"], issue["body"], lists_ids["backlog"])
           puts issue["url"]
