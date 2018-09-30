@@ -37,7 +37,7 @@ bot.get_updates(fail_silently: true) do |message|
           create_issues(issue["title"], issue["body"], lists_ids["backlog"])
           puts issue["url"]
         end
-        reply.text = "a"
+        reply.text = "Issues passed"
       else
         reply.text = "I have no idea what #{command.inspect} means."
       end
