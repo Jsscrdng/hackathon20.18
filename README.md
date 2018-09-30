@@ -30,7 +30,7 @@ To interact with the bot you have to search the bot in, their name is *hack-a-bo
 You can run three commands to interact with the bot. ```/start```, ```greet``` and the most important: ```/setup```. Use the first two to test bot's response. Lastly, use ```setup``` to do the trick, don't forget open your trello board and add some *GitHub* Issues before run the command.
 
 ## What's possible with this code
-You can add the three some of the most used list in a Trello *SCRUM* board in case you haven't yet: **backlog, todo, done**. Additionally, all your *GitHub* issues will pass directly to **Backlog**. Project is capable to detect if either lists or cards inside backlog already exists to avoid to repeat.
+You can add the three some of the most used list in a Trello *SCRUM* board in case you haven't yet: **backlog, todo, done**. Additionally, all your *GitHub* issues will pass directly to **Backlog**. Project is capable to detect if either lists or cards already exists to avoid to repeat.
 
 ## Things to improve
 
