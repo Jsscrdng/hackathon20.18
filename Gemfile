@@ -27,9 +27,11 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
+gem 'telegram_bot'
+
 gem 'telegram-bot'
 
-gem 'telegram_bot'
+gem 'telegram-bot-ruby', '~>0.8.0'
 
 gem 'telegram-bot-types'
 
@@ -41,7 +43,7 @@ gem 'byebug'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  # gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 
 group :development do

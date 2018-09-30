@@ -23,7 +23,7 @@ module Trello
             case list["name"].downcase
             when "backlog"
                 list_counter[:backlog] += 1
-            when "to do"
+            when "todo"
                 list_counter[:todo] += 1
             when "done"
                 list_counter[:done] += 1
