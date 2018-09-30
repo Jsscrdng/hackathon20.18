@@ -9,12 +9,13 @@ require 'byebug'
 
 TRELLO_API_KEY= ENV['TRELLO_API_KEY']
 TRELLO_ACCESS_TOKEN= ENV['TRELLO_ACCESS_TOKEN']
-TRELLO_BOARD_ID="5bb0425143e65366f174f4e9"
+TRELLO_BOARD_ID= ENV['TRELLO_BOARD_ID']
+USER_ID= ENV['USER_ID']
 
 module Trello
     def create_list
         options = "fields=id,name&lists=open&list_fields=id,name,closed,pos"
-        user_id = "5bb0425143e65366f174f4e9"
+        user_id = USER_ID
         lists = get_lists(options, user_id)
         #Check if list exists
         list_counter = {backlog: 0, todo: 0, done: 0}
