@@ -1,5 +1,5 @@
 # Trello/GitHub/Telegram API integration - Hackathon 20.18
-In this proyect you would find an integration to take Github issues and put inside _Backlog_ list of a previously created Trello board. This proyect was entirely developed using Ruby.
+In this proyect you will find an integration to take Github issues and put inside _Backlog_ list of a previously created Trello board. This proyect was entirely developed using Ruby.
 
 Code is now deployed and working so you can pass commands to ```hack-a-bot```  telegram bot now if you were invited both GitHub and Trello projects. 
 
